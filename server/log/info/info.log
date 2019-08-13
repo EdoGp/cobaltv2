@@ -1,0 +1,104 @@
+[2019-08-13T14:31:17.204Z]: [	HTTP POST /] {
+  "meta": {
+    "res": {
+      "statusCode": 404
+    },
+    "req": {
+      "url": "/",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.15.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "4bf95321-017c-4528-9cc2-ea101c2bc1fd",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate",
+        "content-length": "32",
+        "connection": "keep-alive"
+      },
+      "method": "POST",
+      "httpVersion": "1.1",
+      "originalUrl": "/",
+      "query": {}
+    },
+    "responseTime": 2
+  }
+}
+[2019-08-13T14:32:02.349Z]: [	HTTP POST /api/room] {
+  "meta": {
+    "res": {
+      "statusCode": 422
+    },
+    "req": {
+      "url": "/api/room",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.15.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "72eb3472-ae19-4490-80a7-80557821c1b7",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate",
+        "content-length": "32",
+        "connection": "keep-alive"
+      },
+      "method": "POST",
+      "httpVersion": "1.1",
+      "originalUrl": "/api/room",
+      "query": {}
+    },
+    "responseTime": 2
+  }
+}
+[2019-08-13T14:32:54.003Z]: [	HTTP POST /api/room] {
+  "meta": {
+    "res": {
+      "statusCode": 200
+    },
+    "req": {
+      "url": "/api/room",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.15.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "521cf320-8194-45c2-a5f1-4c4fbf5121e1",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate",
+        "content-length": "32",
+        "connection": "keep-alive"
+      },
+      "method": "POST",
+      "httpVersion": "1.1",
+      "originalUrl": "/api/room",
+      "query": {}
+    },
+    "responseTime": 88
+  }
+}
+[2019-08-14T04:28:39.195Z]: [	HTTP GET /api/room] {
+  "meta": {
+    "res": {
+      "statusCode": 200
+    },
+    "req": {
+      "url": "/api/room",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.15.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "17827206-6d74-491e-a335-1374f0f2ce1a",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate",
+        "content-length": "32",
+        "connection": "keep-alive"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/api/room",
+      "query": {}
+    },
+    "responseTime": 63
+  }
+}
