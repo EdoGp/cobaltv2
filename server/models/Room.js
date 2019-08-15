@@ -7,6 +7,7 @@ const roomSchema = new Schema(
 		name: { type: String, minlength: 3 },
 		messages: [{ type: Schema.Types.ObjectId, ref: 'Message' }],
 		files: [{ type: Schema.Types.ObjectId, ref: 'File' }],
+		nameSpace: { type: Schema.Types.ObjectId, ref: 'nameSpace' },
 		// description: { type: String, minlength: 1 },
 		// type: { type: String, enum: ['group', 'private'] },
 	},

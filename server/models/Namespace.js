@@ -5,6 +5,7 @@ const nameSpaceSchema = new Schema(
 	{
 		users: [{ type: Schema.Types.ObjectId, ref: 'User' }],
 		name: { type: String, minlength: 3 },
+		endpoint: { type: String, minlength: 3 },
 		rooms: [{ type: Schema.Types.ObjectId, ref: 'Room' }],
 		// description: { type: String, minlength: 1 },
 		// files: [{ type: Schema.Types.ObjectId, ref: 'File' }],

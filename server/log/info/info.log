@@ -102,3 +102,170 @@
     "responseTime": 63
   }
 }
+[2019-08-14T04:36:18.609Z]: [	HTTP POST /api/room] {
+  "meta": {
+    "res": {
+      "statusCode": 200
+    },
+    "req": {
+      "url": "/api/room",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.15.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "f8be90fd-d020-4464-ab6f-568067720162",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate",
+        "content-length": "32",
+        "connection": "keep-alive"
+      },
+      "method": "POST",
+      "httpVersion": "1.1",
+      "originalUrl": "/api/room",
+      "query": {}
+    },
+    "responseTime": 88
+  }
+}
+[2019-08-15T02:31:02.312Z]: [	HTTP GET /static/js/main.chunk.js] {
+  "meta": {
+    "res": {
+      "statusCode": 404
+    },
+    "req": {
+      "url": "/static/js/main.chunk.js",
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-fetch-mode": "no-cors",
+        "dnt": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "referer": "http://localhost:3000/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,es-419;q=0.8,es;q=0.7",
+        "cookie": "io=o9zmeNve3_eBIcJLAAAB"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/static/js/main.chunk.js",
+      "query": {}
+    },
+    "responseTime": 10
+  }
+}
+[2019-08-15T02:31:02.317Z]: [	HTTP GET /static/js/0.chunk.js] {
+  "meta": {
+    "res": {
+      "statusCode": 404
+    },
+    "req": {
+      "url": "/static/js/0.chunk.js",
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-fetch-mode": "no-cors",
+        "dnt": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "referer": "http://localhost:3000/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,es-419;q=0.8,es;q=0.7",
+        "cookie": "io=o9zmeNve3_eBIcJLAAAB"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/static/js/0.chunk.js",
+      "query": {}
+    },
+    "responseTime": 1
+  }
+}
+[2019-08-15T02:31:02.348Z]: [	HTTP GET /static/js/main.chunk.js] {
+  "meta": {
+    "res": {
+      "statusCode": 404
+    },
+    "req": {
+      "url": "/static/js/main.chunk.js",
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-fetch-mode": "no-cors",
+        "dnt": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "referer": "http://localhost:3000/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,es-419;q=0.8,es;q=0.7",
+        "cookie": "io=o9zmeNve3_eBIcJLAAAB"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/static/js/main.chunk.js",
+      "query": {}
+    },
+    "responseTime": 0
+  }
+}
+[2019-08-15T02:31:02.416Z]: [	HTTP GET /favicon.ico] {
+  "meta": {
+    "res": {
+      "statusCode": 404
+    },
+    "req": {
+      "url": "/favicon.ico",
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-fetch-mode": "no-cors",
+        "dnt": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "referer": "http://localhost:3000/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,es-419;q=0.8,es;q=0.7",
+        "cookie": "io=o9zmeNve3_eBIcJLAAAB"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/favicon.ico",
+      "query": {}
+    },
+    "responseTime": 1
+  }
+}
+[2019-08-15T02:31:02.418Z]: [	HTTP GET /manifest.json] {
+  "meta": {
+    "res": {
+      "statusCode": 404
+    },
+    "req": {
+      "url": "/manifest.json",
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-fetch-mode": "cors",
+        "dnt": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "referer": "http://localhost:3000/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,es-419;q=0.8,es;q=0.7",
+        "if-none-match": "W/\"11d-16c74463aac\"",
+        "if-modified-since": "Fri, 09 Aug 2019 02:47:35 GMT"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/manifest.json",
+      "query": {}
+    },
+    "responseTime": 1
+  }
+}

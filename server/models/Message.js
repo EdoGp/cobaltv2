@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const messageSchema = new Schema(
 	{
-		content: { type: String, default: '' },
+		text: { type: String, default: '' },
 		room: { type: Schema.Types.ObjectId, ref: 'Room' },
 		creator: { type: Schema.Types.ObjectId, ref: 'User' },
 		type: { type: String, enum: ['Text', 'Image'] },
