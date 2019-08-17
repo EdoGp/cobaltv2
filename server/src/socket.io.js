@@ -34,12 +34,13 @@ const startSockets = async () => {
 	try {
 		let namespaces = await Namespaces.find();
 		namespaces.forEach((namespace) => {
-			console.log(namespace.endpoint);
 			io.of(namespace.endpoint).on('connection', (nsSocket) => {
 				const user = nsSocket.handshake.query.user;
+				// console.log(namespace.rooms);
 				nsSocket.emit('nsRoomLoad', namespace.rooms);
 				nsSocket.on('joinRoom', (roomToJoin) => {
-					console.log('Rooms: ', nsSocket.rooms);
+					// console.log('Rooms: ', nsSocket.rooms);
+					// console.log('Rooms: ', roomToJoin);
 					const roomToLeave = Object.keys(nsSocket.rooms)[1];
 					nsSocket.leave(roomToLeave);
 					updateUsersInRoom(namespace, roomToLeave);
@@ -74,6 +75,7 @@ const startSockets = async () => {
 };
 
 io.on('connection', async (socket) => {
+	console.log(socket.handshake.query.username, 'logged in ');
 	socket.emit('nsList', {
 		img: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png',
 		endpoint: '/main',
