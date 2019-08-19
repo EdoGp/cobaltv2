@@ -1,0 +1,32 @@
+.giff-search{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0px;
+}
+
+.giff-search input{
+    width: 100%;
+    padding: 9px 9px 8px 9px;
+    margin: 0px 0px 0px 5px;
+    border-radius: 4px;
+    border: solid 1px #0496ff;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+.giffs-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow: auto;
+}
+
+.giff-container{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    margin: 5px
+}
