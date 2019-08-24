@@ -1,124 +1,46 @@
-.card {
-	width: 100%;
+.main {
+	border: 1px solid red;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+}
+.main__sidebar {
+	border: 1px solid green;
+}
+
+.main__sidebar__top {
+	border: 1px solid greenyellow;
+}
+
+.main__sidebar__channels {
+	border: 1px solid navy;
+}
+
+.main__sidebar__rooms {
+	border: 1px solid orange;
+}
+
+.main__container {
+	border: 1px solid blue;
+	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
 }
 
-.card-body {
-	width: 95%;
+.main__container__messages {
+	border: 1px solid red;
+	flex-grow: 1;
 }
 
-.card-title h2 {
-	font-size: 22px;
-	font-family: 'Roboto';
-	font-weight: 400;
-	color: white;
+.main__container__input {
+	border: 1px solid purple;
 }
 
-.messages {
-	background: white;
-	overflow: scroll;
-	height: 65vh;
-	border-radius: 5px;
-	-webkit-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
-	box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
-}
-
-.card-footer {
-	width: 95%;
-	height: 22vh;
+.main__container__input__form {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
-.chatarea {
-	width: 100%;
-	height: 23vh;
-	overflow: auto;
-}
-
-.chatarea__textarea {
-	width: 80%;
-}
-
-.text-inputs {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-}
-
-.chatarea__input {
-	width: 50%;
-	margin: 20px 0px 0px 0px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.chatarea__input button {
-	background: #0496ff;
-	width: 32%;
-	height: 35px;
-	border: none;
-	border-radius: 4px;
-	padding: 0px;
-	margin: 0px;
-	float: left;
-	color: white;
-	font-size: 16px;
-	font-weight: 800;
-	font-family: 'Roboto';
-	margin-top: 18px;
-}
-
-.rta {
-	width: 100%;
-	height: 70px;
-	padding: 0px;
-	margin: 15px 0px 0px 0px;
-}
-
-.rta__autocomplete {
-	width: 350px;
-	height: 50px;
-	border-radius: 4px;
-	overflow: scroll;
-	margin: -70px 0px 0px 0px;
-}
-
-.rta__autocomplete ul li {
-	list-style: none;
-}
-
-.text-input__textarea {
-	width: 98%;
-	height: 98%;
-	border-radius: 4px;
-	border: none;
-	resize: none;
-	padding: 1%;
-	margin: 0px;
-}
-
-.emoji-mart {
-	position: absolute;
-	margin: -320px 0px 0px 2px;
-	-webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
-	box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
-}
-
-.message-container {
-	border-bottom: 1px solid grey;
-	padding: 15px;
-}
-
-.owned-messages {
-	text-align: right;
+.main__container__input__form__input {
+	flex-grow: 1;
 }
